@@ -10,6 +10,10 @@ const shouldUseMemoryDb = () =>
 export const connectDB = async () => {
   const { MONGODB_URI } = process.env;
   if (shouldUseMemoryDb()) {
+    process.env.HOME = process.env.HOME || "/tmp";
+    process.env.MONGOMS_DOWNLOAD_DIR =
+      process.env.MONGOMS_DOWNLOAD_DIR || "/tmp/mongodb-binaries";
+    process.env.MONGOMS_PREFER_GLOBAL_PATH = "true";
     memoryServer = await MongoMemoryServer.create();
     const uri = memoryServer.getUri("team_task_manager");
     await mongoose.connect(uri);

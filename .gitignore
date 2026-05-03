@@ -22,3 +22,6 @@ pnpm-debug.log*
 Thumbs.db
 .idea/
 .vscode/
+
+# Local Netlify folder
+.netlify
