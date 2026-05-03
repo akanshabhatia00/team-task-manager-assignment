@@ -1,0 +1,28 @@
+Team Task Manager - Submission Notes
+
+Required fields:
+1) Live Application URL
+2) GitHub Repository Link
+3) README file in .txt format
+4) Demo video with explanation
+
+Files prepared in this project:
+- README.txt  (ready to upload)
+- DEMO_SCRIPT.md (2-5 minute speaking flow for demo recording)
+
+Demo video checklist:
+- Show signup and login
+- Create a project as Admin
+- Add/remove a member
+- Create and assign tasks (title, description, due date, priority)
+- Update task status (todo -> in-progress -> done)
+- Show dashboard metrics
+- Show member restrictions (can only view/update assigned tasks)
+- Briefly explain backend routes and role checks
+
+After deployment:
+- Put live app URL in the form
+- Put GitHub repository link in the form
+- Upload README.txt (max 10 MB requirement is satisfied)
+- Upload your recorded demo video (max 1 GB)
+
